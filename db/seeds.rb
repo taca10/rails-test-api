@@ -15,3 +15,14 @@ Post.create!(
     }
   ]
 )
+
+Task.create!(
+  [
+    {
+      title: '今日やること', content: "掃除"
+    },
+    {
+      title: "明日やること", content: "プログラム書く"
+    }
+  ]
+)
